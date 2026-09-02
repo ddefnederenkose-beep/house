@@ -14,9 +14,10 @@ export default function Home() {
         </h1>
         <p className="mx-auto mt-5 max-w-xl text-base text-ink-soft">
           Villa Stone, Villa Olive, and Villa Elea share a quiet complex above
-          Agios Nikolaos — each with its own bedrooms and terrace, all with
-          access to a shared pool. Browse a villa below and send us an
-          inquiry; we confirm every booking by hand.
+          Agios Nikolaos — each with its own bedrooms and terrace. Villa Olive
+          has a private pool of its own; Stone and Elea share a pool between
+          them. Browse a villa below and send us an inquiry; we confirm every
+          booking by hand.
         </p>
       </section>
 

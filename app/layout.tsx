@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s — Riglia Villas",
   },
   description:
-    "Three stone-built villas on the Mani Peninsula, Greece. Private pool, olive groves, and gulf views — browse each villa and send a booking inquiry.",
+    "Three stone-built villas on the Mani Peninsula, Greece. Shared and private pools, olive groves, and sea views — browse each villa and send a booking inquiry.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
