@@ -151,11 +151,8 @@ export const villas: Villa[] = [
     ],
     area: RIGLIA_AREA,
     airbnbUrl: "https://www.airbnb.com/rooms/884535499524393516",
-    // NOTE: the Airbnb listing you pasted shows this as 1249K91000335801 —
-    // identical to Villa Stone's number. Registration numbers should be
-    // unique per property under Greek short-term rental law, so this is
-    // almost certainly a copy-paste slip on the listing itself. Worth
-    // double-checking Elea's actual number before this goes live.
+    // Same number as Villa Stone — confirmed intentional (owner: Stone and
+    // Elea are registered under the same property), not a listing error.
     registrationNumber: "1249K91000335801",
   },
 ];
