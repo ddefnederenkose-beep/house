@@ -113,6 +113,12 @@ export default async function VillaPage({
               {villa.area}
             </p>
           </div>
+
+          {villa.registrationNumber ? (
+            <p className="mt-12 text-xs text-stone-dark">
+              Registration no. {villa.registrationNumber}
+            </p>
+          ) : null}
         </div>
 
         <div>

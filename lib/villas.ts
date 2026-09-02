@@ -18,6 +18,9 @@ export type Villa = {
   amenities: string[];
   area: string;
   airbnbUrl: string;
+  /** Greek short-term rental registry number — legally required wherever
+   * the property is advertised, including this site, not just Airbnb. */
+  registrationNumber?: string;
 };
 
 // The three villas share a floor plan and are marketed together as
@@ -66,18 +69,18 @@ export const villas: Villa[] = [
     slug: "villa-olive",
     name: "Villa Olive",
     collection: "Riglia Villas",
-    tagline: "Hidden in the olive grove, steps from the pool",
+    tagline: "Hidden in the olive grove, with a private pool of its own",
     location: "Rigklia, Mani Peninsula, Messinia, Greece",
     region: "Mani Peninsula",
     guests: 8,
     bedrooms: 3,
-    beds: 5,
+    beds: 4,
     baths: 3.5,
     sizeSqm: 190,
     description: [
-      "Villa Olive is the second of the three Riglia Villas, tucked into the same olive grove above Rigklia on the Mani Peninsula, and built to the same warm, stone-and-timber character as its sister villas.",
-      "A bright open-plan living and dining space runs into a fully equipped kitchen, with two en-suite master bedrooms and a third bedroom set up for family or friends travelling together.",
-      "The complex's shared pool and lounge sit just outside, with private terraces and gulf views, and the same quiet, low-key privacy the whole property is designed around.",
+      "Villa Olive is hidden in the heart of the olive grove, part of the same three-villa complex as Villa Stone and Villa Elea just outside Agios Nikolaos — private and secluded, away from the busier parts of the Mani.",
+      "Two master bedrooms with en-suite bathrooms and a third bedroom with twin beds and a double sofa bed sleep up to 8 guests. The ground floor opens into one large living, dining, and fully equipped kitchen area.",
+      "Villa Olive has its own private pool, with a lounge area around it for relaxing and dining al fresco, and a modern BBQ. Like its sister villas, it's built so no resident looks directly onto another.",
     ],
     bedroomBreakdown: [
       { title: "Master bedroom 1", detail: "En-suite bathroom" },
@@ -85,18 +88,24 @@ export const villas: Villa[] = [
       { title: "Bedroom 3", detail: "Twin beds + double sofa bed" },
     ],
     amenities: [
-      "Shared outdoor pool (seasonal)",
-      "Traditional wood-fired BBQ",
-      "Olive grove setting",
-      "Free WiFi",
-      "Free parking on premises",
+      "Private pool",
+      "Modern BBQ",
+      "Sea view",
       "Fully equipped kitchen",
-      "Private terrace with gulf views",
+      "Free WiFi",
+      "Dedicated workspace",
+      "Free parking on premises",
+      "Pets allowed",
+      "TV",
+      "Washer",
+      "Air conditioning",
       "Third bathroom + WC",
+      "No direct sightlines to neighbouring villas",
     ],
     area:
-      "Rigklia sits just inland from Agios Nikolaos on the western Mani coast, among olive groves with the Taygetos mountains behind and the Messinian Gulf ahead. Stoupa and Kardamyli are a short drive away. Kalamata International Airport (KLX) is about an hour away; Athens is roughly 3.5 hours by car.",
+      "Riglia Villas sits just outside Agios Nikolaos, a fishing village on the Messinian Mani where the Taygetos mountains meet the Messinian Gulf. Stroll the harbour past colourful boats, eat at tavernas serving the day's catch, and watch the sunset over stone streets and bougainvillea. Stoupa's beaches and the Byzantine villages of Kardamyli are a short drive on, with hiking trails through olive groves nearby. By car it's about an hour from Kalamata International Airport (KLX) and roughly 3.5 hours from Athens; a private transfer from Kalamata can be arranged on request.",
     airbnbUrl: "https://www.airbnb.com/rooms/882239988103666149",
+    registrationNumber: "1249K91000335701",
   },
   {
     slug: "villa-elea",
